@@ -1,0 +1,89 @@
+
+Assignment1 | input output instructions
+
+Write a program to print Hello Students on the screen.
+Write a program to print Hello on the first line and Students on the second line
+Write a program to print "MySirG" on the screen Remember MySirG is double quotes.
+Write a program to print \n on the screen
+Write a program to print \r on the screen 
+Write a program to print "Teacher's Day" on the screen. (Remember to print single and double quotes)
+Write a program to calculate sum of two integers. Numbers are taken from the user through the keyboard.
+Write a program to calculate area of rectangle. Input appropriate data from the user.
+WAP to find the area of circle. Take radius of circle from user as input.
+
+Assignment2 | printf() and scanf()
+
+WAP to calculate average of three integers. Numbers are given by the user.
+WAP to calculate circumference of a circle.
+WAP to calculate simple interest.
+WAP to calculate volume of a cuboid.
+Write a program to ask user about the cost of price and selling price banana per dozen. calculate the profit or loss earned upon 25 selling bananas.
+
+Assignment3 | printf() and scanf()
+
+WAP to input a character from the user and print its ASCII code.
+WAP to input a ASCII code from the user and print its corresponding character.
+WAP to input three characters from the user and display characters with their corresponding ASCII codes.
+Write a program to print last digit of a given number.
+WAP to print a given number without its last digit.
+
+
+Assignment4 | Operators in C Language
+
+WAP to calculate size of a character constant.
+WAP to calculate size of a real constant.
+WAP with one character type variable. Assign 'A' in the variable. Now change the value of variable from 'A' to 'B' using increment operator.
+WAP to swap values of two int variables.
+WAP to swap values of two int variables without using third variable.
+WAP to swap values of two int variables without using third variable and + - operators.
+WAP to swap values of two int variables without using third variable and arithmetic operators
+WAP to swap values of two int variables in a single line arithmetic expression.
+
+Assignment5 | More on operators in C Language
+
+WAP to input a three digit number and display the sum of three digits.
+WAP to find the ASCII code of the character '+'.
+WAP to print size of an int, a float, a char and a double type variable. 
+WAP to make the last digit of a number stored in a variable as zero. (Example - if x=2345 then make it x=2340)
+WAP to input a number from the user and also input a digit. Append a digit in the number and print the resulting number.(Example - number=234 and digit=9 then resulting number is 2349)
+WAP to delete a digit in a number. (Example - number=2345 and digit=3 then resulting number is 245)
+WAP to input a three digit number and rotate its digits by one position towards right.
+WAP to input a three digit number and rotate its digits by one position towards left.
+
+Assignment6 | More on operators in C Language
+
+Assume price of 1 USD is INR 84.23. WAP to take the amount in INR from the user and convert it into USD.
+WAP to input a three digit number and rotate its digits by one position towards right.
+what will be the value stored in the variable 'x' after execution of the following code snippet? 
+x=10>8>4;
+what will be the value stored in the variable 'x' after execution of the following code snippet? 
+x=!2>-2;
+what will be the value stored in the variable 'x' after execution of the following code snippet? 
+x=3<0&&5>0;
+
+Assignment7 | Decision Control Statements
+
+WAP to check whether a given number is positive or negative.
+WAP to check whether a given number is divisible of 5  or not.
+WAP to check whether a given number is an even or odd.
+WAP to check whether a given number is an even or an odd number without using % operator.
+WAP to check whether a given number is an even or an odd number without using bitwise operator.
+
+
+Assignment8 | Decision Control Statements
+
+WAP to check whether a given number is a three digit number or not.
+WAP to print greater between two numbers. Print one number if both are same.
+Write a program to check whether roots of a given quadratic equation are real & distinct, real & equal or imaginary roots.
+WAP to check whether a given year is a leap year or not.
+WAP to print greatest among three given numbers. Print number once if the greatest number appears two or three times.
+
+
+Assignment9 | Decision Control Statements
+
+
+
+
+
+
+
