@@ -1,10 +1,10 @@
-/* 
+/*
 
 Assignment5 | More on operators in C Language
 
 WAP to input a three digit number and display the sum of three digits.
 WAP to find the ASCII code of the character '+'.
-WAP to print size of an int, a float, a char and a double type variable. 
+WAP to print size of an int, a float, a char and a double type variable.
 WAP to make the last digit of a number stored in a variable as zero. (Example - if x=2345 then make it x=2340)
 WAP to input a number from the user and also input a digit. Append a digit in the number and print the resulting number.(Example - number=234 and digit=9 then resulting number is 2349)
 WAP to delete a digit in a number. (Example - number=2345 and digit=3 then resulting number is 245)
@@ -17,55 +17,56 @@ WAP to input a three digit number and rotate its digits by one position towards 
 
 #include <stdio.h>
 
-// WAP to input a character from the user and print its ASCII code.
-
+// WAP to input a three digit number and display the sum of three digits.
 
 // int main()
 // {
 
-//     char ch;
-//     printf("Enter a character");
-//     scanf("%c",&ch);
+//     int num1, sum = 0;
+//     printf("Please enter a three digit number\n");
+//     scanf("%d", &num1);
+//     if (num1 >= 100 && num1 <= 999)
+//     {
+//         while (num1)
+//         {
+//             sum =sum+ num1%10;
+//             num1 = num1 / 10;
+//         }
+//         printf("Sum of three digits is %d\n", sum);
+//         return 0;
+//     }
+//     else
+//     {
+//         printf("Please enter a valid between 100 to 999 number\n");
+//         return 0;
+//     }
+// }
+
+// WAP to find the ASCII code of the character '+'.
+
+// int main()
+// {
+
+//     char ch='+';
 //     printf("ASCII code of %c is %d\n",ch,ch);
-
-    
 //     return 0;
 // }
 
-// WAP to input a ASCII code from the user and print its corresponding character.
+// WAP to print size of an int, a float, a char and a double type variable.
 
 // int main()
 // {
 
-//     int ascii_code;
-//     printf("Enter an ASCII code");
-//     scanf("%d",&ascii_code);
-//     printf("Character corresponding to ASCII code %d is %c\n",ascii_code,ascii_code);
+//     printf("Size of char = %zu bytes \n", sizeof(char));
+//     printf("Size of int = %zu bytes \n", sizeof(int));
+//     printf("Size of float =  %zu bytes \n", sizeof(float));
+//     printf("Size of double = %zu bytes \n", sizeof(double));
 
-//     return 0;
-// }
-
-
-// WAP to input three characters from the user and display characters with their corresponding ASCII codes.
-
-
-// int main()
-// {
-
-//     char ch1,ch2,ch3;
-//     printf("Enter three characters");
-//     scanf("%c%c%c",&ch1,&ch2,&ch3);
-//     printf("ASCII code of %c is %d\n",ch1,ch1);
-//     printf("ASCII code of %c is %d\n",ch2,ch2);
-//     printf("ASCII code of %c is %d\n",ch3,ch3);
-    
-
-   
 //     return 0;
 
 // }
 
-// Write a program to print last digit of a given number.
+// WAP to make the last digit of a number stored in a variable as zero. (Example - if x=2345 then make it x=2340)
 
 // int main()
 // {
@@ -74,22 +75,39 @@ WAP to input a three digit number and rotate its digits by one position towards 
 //     printf("Enter a number");
 //     scanf("%d",&number);
 //     last_digit=number%10;
-//     printf("Last digit of %d is %d\n",number,last_digit);
+//     number=number/10*10;
+//     printf("Last digit stored as zero of %d \n",number);
 
 //     return 0;
 // }
 
-// WAP to print a given number without its last digit.
-
-int main()
-{
-
-    int number,without_last_digit;
-    printf("Enter a number");
-    scanf("%d",&number);
-    without_last_digit=number/10;
-    printf("Without Last digit of %d is %d\n",number,without_last_digit);
+// WAP to input a number from the user and also input a digit. Append a digit in the number and print the resulting number.(Example - number=234 and digit=9 then resulting number is 2349)
 
 
-    return 0;
-} 
+// int main()
+// {
+
+//     int number,digit;
+//     printf("Enter a number and a digit to be appended");
+//     scanf("%d%d",&number,&digit);
+//     printf("After append a digit number become %d \n",number*10+digit);
+
+//     return 0;
+// }
+
+// WAP to delete a digit in a number. (Example - number=2345 and digit=3 then resulting number is 245)
+
+// int main()
+// {
+
+//     int number,digit,temp;
+//     printf("Enter a number and a digit to be deleted");
+//     scanf("%d%d",&number,&digit);
+//     temp=number;
+
+
+
+//     printf("Without Last digit of %d is %d\n",number);
+
+//     return 0;
+// }
