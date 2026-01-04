@@ -83,7 +83,6 @@ WAP to input a three digit number and rotate its digits by one position towards 
 
 // WAP to input a number from the user and also input a digit. Append a digit in the number and print the resulting number.(Example - number=234 and digit=9 then resulting number is 2349)
 
-
 // int main()
 // {
 
@@ -100,14 +99,66 @@ WAP to input a three digit number and rotate its digits by one position towards 
 // int main()
 // {
 
-//     int number,digit,temp;
-//     printf("Enter a number and a digit to be deleted");
+//     int number,digit,temp,result=0,place=1;
+//     printf("Enter a number and a digit");
 //     scanf("%d%d",&number,&digit);
 //     temp=number;
+// while(temp){
+//     int remainder=temp%10;
+//     temp=temp/10;
+//     if(remainder!=digit){
+//         result=result+remainder*place;
+//         place=place*10;
+//     }else{
+//         continue;
 
+//     }
+// }
+//     if(result==0){
+//         printf("Resulting number is 0\n");
+//     }else{
+//     printf("Resulting number is %d\n",result);
+// }
+// }
 
+// WAP to input a three digit number and rotate its digits by one position towards right.
 
-//     printf("Without Last digit of %d is %d\n",number);
+int main()
+{
 
-//     return 0;
+    int num1;
+    printf("Please enter a three digit number\n");
+    scanf("%d", &num1);
+    if (num1 >= 100 && num1 <= 999)
+    {
+        num1 = num1 >> 1;
+        printf("After one position towards right number is %d\n", num1);
+        return 0;
+    }
+    else
+    {
+        printf("Please enter a valid between 100 to 999 number\n");
+        return 0;
+    }
+}
+
+// WAP to input a three digit number and rotate its digits by one position towards left.
+
+// int main()
+// {
+
+//     int num1;
+//     printf("Please enter a three digit number\n");
+//     scanf("%d", &num1);
+//     if (num1 >= 100 && num1 <= 999)
+//     {
+//         num1 = num1 << 1;
+//         printf("After one position towards right number is %d\n", num1);
+//         return 0;
+//     }
+//     else
+//     {
+//         printf("Please enter a valid between 100 to 999 number\n");
+//         return 0;
+//     }
 // }
