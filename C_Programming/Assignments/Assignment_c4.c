@@ -104,43 +104,30 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 
 // WAP to swap values of two int variables without using third variable and arithmetic operators
 
-int main()
-{
-
-    int num1, num2;
-    printf("Enter two numbers");
-    scanf("%d%d", &num1, &num2);
-    num1 = num1 ^ num2;
-    num2 = num1 ^ num2;
-    num1 = num1 ^ num2;
-    printf("After swapping num1=%d and num2=%d\n", num1, num2);
-    return 0;
-}
-
-// WAP to swap values of two int variables in a single line arithmetic expression.
-
-// int main()
-// {
-
-//     int num1,num2,swap_num;
-//     printf("Enter two numbers");
-//     scanf("%d%d",&num1,&num2);
-//     swap_num=num1;
-//     num1=num2;
-//     num2=swap_num;
-//     printf("After swapping num1=%d and num2=%d\n",num1,num2);
-//     return 0;
-// }
-
 // int main()
 // {
 
 //     int num1, num2;
 //     printf("Enter two numbers");
 //     scanf("%d%d", &num1, &num2);
-//     num1  = num1 + num2 ;
-//     num2 = num1 - num2;
-//     num1 = num1 - num2;
+//     num1 = num1 ^ num2;
+//     num2 = num1 ^ num2;
+//     num1 = num1 ^ num2;
 //     printf("After swapping num1=%d and num2=%d\n", num1, num2);
 //     return 0;
 // }
+
+// WAP to swap values of two int variables in a single line arithmetic expression.
+
+
+int main()
+{
+
+    int num1, num2;
+    printf("Enter two numbers");
+    scanf("%d%d", &num1, &num2);
+    num1  = (num1 + num2) - (num2 = num1);
+   
+    printf("After swapping num1=%d and num2=%d\n", num1, num2);
+    return 0;
+}
