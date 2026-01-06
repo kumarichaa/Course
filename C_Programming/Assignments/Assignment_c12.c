@@ -19,29 +19,32 @@ WAP to print the table of N.
 
 // WAP to print "MySirG" N times on the screen
 
-// int main()
-// {
-//     int Nth_term;
-//     printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+int main()
+{
+    int N;
+    printf("Enter value of N: \n");
+    scanf("%d", &N);
 
-//     for (int i = 1; i <= Nth_term; i++)
-//     {
-//         printf("\"MySirG\"\n");
-//     }
-// }
+    while (N--) // first
+    {
+        printf("MySirG\n");
+    }
+    return 0;
+}
 
 // WAP to print the first N natural numbers.
 
 // int main()
 // {
-//     int Nth_term;
-//     printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+//     int N,i=1;
+//         printf("Enter value of N: \n");
 
-//     for (int i = 1; i <= Nth_term; i++)
+//     scanf("%d", &N);
+
+//     while (i <= N)
 //     {
 //         printf("%d ", i);
+//         i++;
 //     }
 //     printf("\n");
 //     return 0;
@@ -51,13 +54,15 @@ WAP to print the table of N.
 
 // int main()
 // {
-//     int Nth_term;
-//     printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+//     int N;
+//        printf("Enter value of N: \n");
 
-//     for (int i = Nth_term; i >= 1; i--)
+//     scanf("%d", &N);
+//
+//     while(N >= 1)
 //     {
-//         printf("%d ", i);
+//         printf("%d ", N);
+//         N--;
 //     }
 //     printf("\n");
 //     return 0;
@@ -67,14 +72,34 @@ WAP to print the table of N.
 
 // int main()
 // {
-// int Nth_term;
-// printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+// int N,i=1;
+//         printf("Enter value of N: \n");
 
-//     for(int i=1;i<=Nth_term;i++){
+//     scanf("%d", &N);
+
+//     while(i<=N){
 //         if(i%2){
 //         printf("%d ",i);
 //         }
+// i++;
+//     }
+//     printf("\n");
+//     return 0;
+// }
+
+// Method 2 | print first N odd natural numbers = 2n-1
+// int main()
+// {
+// int N,i=1;
+//         printf("Enter value of N: \n");
+
+//     scanf("%d", &N);
+
+//     while(i<=N){
+//
+//         printf("%d ",(2*i-1));
+//         i++;
+//
 //     }
 //     printf("\n");
 //     return 0;
@@ -84,16 +109,37 @@ WAP to print the table of N.
 
 // int main()
 // {
-//     int Nth_term;
-//     printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+//    int N;
+//        printf("Enter value of N: \n");
 
-//     for (int i = Nth_term; i >= 1; i--)
+//     scanf("%d", &N);
+
+//     while(N >= 1)
 //     {
-//         if (i % 2)
+//         if (N % 2)
 //         {
-//             printf("%d ", i);
+//             printf("%d ", N);
+//
 //         }
+//         N--;
+//     }
+//     printf("\n");
+//     return 0;
+// }
+
+// Method 2 | print first N odd natural numbers = 2n-1
+
+// int main()
+// {
+//     int N;
+//         printf("Enter value of N: \n");
+
+//     scanf("%d", &N);
+
+//     while(N >= 1)
+//     {
+//         printf("%d ", (2 * N - 1));
+//         N--;
 //     }
 //     printf("\n");
 //     return 0;
@@ -103,14 +149,16 @@ WAP to print the table of N.
 
 // int main()
 // {
-//     int Nth_term;
-//     printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+//     int N,i=1;
+//        printf("Enter value of N: \n");
 
-//     for (int i = 1; i <= Nth_term; i++)
+//     scanf("%d", &N);
+
+//     while(i <= N)
 //     {
 
 //         printf("%d ", 2 * i);
+//         i++;
 //     }
 //     printf("\n");
 //     return 0;
@@ -120,14 +168,16 @@ WAP to print the table of N.
 
 // int main()
 // {
-//     int Nth_term;
-//     printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+//    int N;
+//        printf("Enter value of N: \n");
 
-//     for (int i = Nth_term; i >= 1; i--)
+//     scanf("%d", &N);
+
+//     while (N>= 1)
 //     {
 
-//         printf("%d ", 2 * i);
+//         printf("%d ", 2 * N);
+//         N--;
 //     }
 //     printf("\n");
 //     return 0;
@@ -137,14 +187,16 @@ WAP to print the table of N.
 
 // int main()
 // {
-//     int Nth_term;
-//     printf("Please Nth term\n");
-//     scanf("%d", &Nth_term);
+//     int N,i=1;
+//         printf("Enter value of N: \n");
 
-//     for (int i = 1; i <= Nth_term; i++)
+//     scanf("%d", &N);
+
+//     while (i <= N)
 //     {
 
 //         printf("%d ", i * i);
+//         i++;
 //     }
 //     printf("\n");
 //     return 0;
@@ -152,33 +204,37 @@ WAP to print the table of N.
 
 // WAP to print cubes of the first N natural numbers.
 
-int main()
-{
-    int Nth_term;
-    printf("Please Nth term\n");
-    scanf("%d", &Nth_term);
+// int main()
+// {
+//     int N,i=1;
+//         printf("Enter value of N: \n");
 
-    for (int i = 1; i <= Nth_term; i++)
-    {
+//     scanf("%d", &N);
 
-        printf("%d ", i * i * i);
-    }
-    printf("\n");
-    return 0;
-}
+//     while(i <= N)
+//     {
+
+//         printf("%d ", i * i * i);
+//         i++;
+//     }
+//     printf("\n");
+//     return 0;
+// }
 
 // WAP to print the table of N.
 
 // int main()
 // {
-//     int Nth_term;
-//     printf("Please enter Nth term for table\n");
-//     scanf("%d", &Nth_term);
+//     int N,i=1;
+//     printf("Enter value of N \n");
+//     scanf("%d", &N);
 
-//     for (int i = 1; i <= 10; i++)
+//     while(i <= 10)
 //     {
 
-//         printf(" %d * %d = %d \n", Nth_term, i, Nth_term * i);
+//         printf(" %d * %d = %d \n", N, i, N * i);
+
+//         i++;
 //     }
 //     return 0;
 // }
