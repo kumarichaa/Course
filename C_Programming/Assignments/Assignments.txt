@@ -81,7 +81,82 @@ WAP to print greatest among three given numbers. Print number once if the greate
 
 Assignment9 | Decision Control Statements
 
+WAP which takes the cost price and selling price of a product from the user. Now calculate and print the profit and loss percentage.
+WAP to take marks of 5 subjects from the user. Assume given marks out of 100 and passing marks is 33.Now display whether the candidate passed 
+the examination or failed.
+WAP to check whether a given alphabet is uppercase or lowercase.
+WAP to check whether a given number is divisible by 3 and divisible by 2.
+WAP to check whether a given number is divisible by 7 or divisible by 3.
 
+
+Assignment10 | More on Decision Control Statements
+
+WAP to check whether a given number is positive,negative or zero.
+WAP to check whether a given character is an alphabet(uppercase), an alphabet(lowercase), a digit or a special character.
+WAP to which takes the length of the triangle as an input. Display whether the triangle is valid or not.
+WAP which takes the month number as an input and display number of days in that month.
+
+
+Assignment11 | Iterative Control Statements
+
+WAP to print "MySirG" 5 times on the screen
+WAP to print the first 10 natural numbers.
+WAP to print the first 10 natural numbers in reverse order.
+WAP to print the first 10 odd natural numbers.
+WAP to print the first 10 odd natural numbers in reverse order.
+WAP to print the first 10 even natural numbers.
+WAP to print the first 10 even natural numbers in reverse order.
+WAP to print  squares of the first 10 natural numbers.
+WAP to print cubes of the first 10 natural numbers.
+WAP to print the table of 5.
+
+Assignment12 | While loop
+
+WAP to print "MySirG" N times on the screen
+WAP to print the first N natural numbers.
+WAP to print the first N natural numbers in reverse order.
+WAP to print the first N odd natural numbers.
+WAP to print the first N odd natural numbers in reverse order.
+WAP to print the first N even natural numbers.
+WAP to print the first N even natural numbers in reverse order.
+WAP to print  squares of the first N natural numbers.
+WAP to print cubes of the first N natural numbers.
+WAP to print the table of N.
+
+Assignment13 | Use any loop
+
+WAP to calculate sum of first N natural numbers.
+WAP to calculate sum of first N odd natural numbers.
+WAP to calculate sum of first N even natural numbers.
+WAP to calculates sum of squares of first N natural numbers.
+WAP to calculates sum of cubes of first N natural numbers.
+
+Assignment14 | Use any loop
+
+WAP to calculate the factorial of a number.
+WAP to count digits in a given number. 
+WAP to check whether a given number is prime or not.
+WAP to calculate the LCM of two numbers.
+WAP to reverse a given number.
+
+Assignment15 | Level up with loops
+
+WAP to print all prime numbers under 100.
+WAP to print all prime numbers between given numbers.
+WAP to print next prime number of a given number.
+WAP to calculate HCF of given two numbers.
+WAP to check whether two given numbers are co-prime or not.
+
+Assignment16 | Level up with loops
+
+WAP to find the nth term of the fibonacci series.
+WAP to print first nth terms of the fibonacci series.
+WAP to check whether a given number is there in the fibonacci series or not.
+WAP to check whether a given number is Armstrong or not.
+WAP to print all Armstrong number under 1000.
+
+
+Assignment17 | Star Patterns Problems
 
 
 

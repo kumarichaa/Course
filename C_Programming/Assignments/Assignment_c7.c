@@ -81,33 +81,13 @@ WAP to check whether a given number is an even or an odd number without using bi
 
 // WAP to check whether a given number is an even or an odd number without using % operator.
 
-int main()
-{
-
-    int num1;
-    printf("Please enter a number\n");
-    scanf("%d", &num1);
-    if (num1&1)
-    {
-        printf("Given number %d is an odd\n", num1);
-        return 0;
-    }
-    else
-    {
-        printf("Given number %d is an even\n", num1);
-        return 0;
-    }
-}
-
-// WAP to check whether a given number is an even or an odd number without using bitwise operator.
-
 // int main()
 // {
 
 //     int num1;
 //     printf("Please enter a number\n");
 //     scanf("%d", &num1);
-//     if (num1&2)
+//     if (num1&1)
 //     {
 //         printf("Given number %d is an odd\n", num1);
 //         return 0;
@@ -118,3 +98,23 @@ int main()
 //         return 0;
 //     }
 // }
+
+// WAP to check whether a given number is an even or an odd number without using bitwise operator.
+
+int main()
+{
+
+    int num1;
+    printf("Please enter a number\n");
+    scanf("%d", &num1);
+    if (num1%=2)
+    {
+        printf("Given number is an odd\n");
+        return 0;
+    }
+    else
+    {
+        printf("Given number is an even\n");
+        return 0;
+    }
+}
