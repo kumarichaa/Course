@@ -1,12 +1,12 @@
 /*
 
-Assignment15 | Level up with loops
+Assignment16 | Level up with loops
 
-WAP to print all prime numbers under 100.
-WAP to print all prime numbers between given numbers.
-WAP to print next prime number of a given number.
-WAP to calculate HCF of given two numbers.
-WAP to check whether two given numbers are co-prime or not.
+WAP to find the nth term of the fibonacci series.
+WAP to print first nth terms of the fibonacci series.
+WAP to check whether a given number is there in the fibonacci series or not.
+WAP to check whether a given number is Armstrong or not.
+WAP to print all Armstrong number under 1000.
 
 */
 

@@ -78,7 +78,7 @@ Assignment 9 | Decision Control Statements
 //     char ch;
 
 //     printf("Enter a character:\n");
-//     scanf(" %c", &ch);
+//     scanf("%c", &ch);
 
 //     if (ch >= 'A' && ch <= 'Z')
 //         printf("'%c' is an Uppercase alphabet\n", ch);
