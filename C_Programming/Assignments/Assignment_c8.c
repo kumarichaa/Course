@@ -15,70 +15,61 @@ WAP to print greatest among three given numbers. Print number once if the greate
 
 // WAP to check whether a given number is a three digit number or not.
 
-
 // int main()
 // {
 
 //     int num1;
-//     printf("Please enter a number\n");
+//     printf("Enter a number: \n");
 //     scanf("%d", &num1);
-//     if (num1 > 0)
+//     if (num1 >= 100 && num1 <= 999)
 //     {
-//         printf("Given number %d is positive\n", num1);
-//         return 0;
-//     }else if (num1 < 0)
-//     {
-//         printf("Given number %d is negative\n", num1);
+//         printf("Given number %d is a three digit number\n", num1);
 //         return 0;
 //     }
 //     else
 //     {
-//         printf("Please enter a number greater than zero or less than zero \n");
+//         printf("Given number %d is not a three digit number\n", num1);
 //         return 0;
 //     }
 // }
 
-
 // WAP to print greater between two numbers. Print one number if both are same.
-
+//     result=(num1>=num2?num1:num2);
 
 // int main()
 // {
 
-//     int num1;
-//     printf("Please enter a number\n");
-//     scanf("%d", &num1);
-//     if (num1%5==0)
+//     int num1,num2;
+//     printf("Enter two numbers: \n");
+//     scanf("%d%d", &num1,&num2);
+//     if (num1>=num2)
 //     {
-//         printf("Given number %d is divisible by 5\n", num1);
+//         printf("Number is %d \n", num1);
 //         return 0;
 //     }
 //     else
 //     {
-//         printf("Given number %d is not divisible by 5\n", num1);
+//         printf("Number is %d \n", num2);
 //         return 0;
 //     }
 // }
 
 // Write a program to check whether roots of a given quadratic equation are real & distinct, real & equal or imaginary roots.
 
-
 // int main()
 // {
 
-//     int num1;
-//     printf("Please enter a number\n");
-//     scanf("%d", &num1);
-//     if (num1%2)
-//     {
-//         printf("Given number %d is an odd\n", num1);
-//         return 0;
-//     }
+//     int a, b, c, discriminant;
+//     printf("Enter values of a, b and c:\n");
+//     scanf("%d %d %d", &a, &b, &c);
+//     discriminant = (b * b) - (4 * a * c);
+//     if (discriminant > 0)
+//         printf("Roots are real and distinct\n");
+//     else if (discriminant == 0)
+//         printf("Roots are real and equal\n");
 //     else
-//     {
-//         printf("Given number %d is an even\n", num1);
-//         return 0;
-//     }
+//         printf("Roots are imaginary\n");
+//     return 0;
 // }
 
 // WAP to check whether a given year is a leap year or not.
@@ -86,38 +77,30 @@ WAP to print greatest among three given numbers. Print number once if the greate
 // int main()
 // {
 
-//     int num1;
-//     printf("Please enter a number\n");
-//     scanf("%d", &num1);
-//     if (num1&1)
-//     {
-//         printf("Given number %d is an odd\n", num1);
-//         return 0;
-//     }
-//     else
-//     {
-//         printf("Given number %d is an even\n", num1);
-//         return 0;
-//     }
+//     int year;
+//     printf("Enter Year: \n");
+//     scanf("%d", &year);
+//     printf("Given year %d is %s\n", year, ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) ? " a leap year" : " not a leap year");
+
+//     return 0;
 // }
 
 // WAP to print greatest among three given numbers. Print number once if the greatest number appears two or three times.
-
+// result=(num1>=num2?num1:num2);
+// result=(result>=num3?result:num3);
 
 int main()
 {
 
-    int num1;
-    printf("Please enter a number\n");
-    scanf("%d", &num1);
-    if (num1%=2)
-    {
-        printf("Given number is an odd\n");
-        return 0;
-    }
+    int num1, num2, num3;
+    printf("Enter three numbers: \n");
+    scanf("%d%d%d", &num1, &num2, &num3);
+
+    if (num1 >= num2 && num1 >= num3)
+        printf("Greater Number is %d \n", num1);
+    else if (num2 >= num1 && num2 >= num3)
+        printf("Greater Number is %d \n", num2);
     else
-    {
-        printf("Given number is an even\n");
-        return 0;
-    }
+        printf("Greater Number is %d \n", num3);
+    return 0;
 }

@@ -70,7 +70,7 @@ WAP to check whether a given number is an even or an odd number without using % 
 WAP to check whether a given number is an even or an odd number without using bitwise operator.
 
 
-Assignment8 | Decision Control Statements
+Assignment8 | Decision Control Statements(Remaining)
 
 WAP to check whether a given number is a three digit number or not.
 WAP to print greater between two numbers. Print one number if both are same.
@@ -79,7 +79,7 @@ WAP to check whether a given year is a leap year or not.
 WAP to print greatest among three given numbers. Print number once if the greatest number appears two or three times.
 
 
-Assignment9 | Decision Control Statements
+Assignment9 | Decision Control Statements(Remaining)
 
 WAP which takes the cost price and selling price of a product from the user. Now calculate and print the profit and loss percentage.
 WAP to take marks of 5 subjects from the user. Assume given marks out of 100 and passing marks is 33.Now display whether the candidate passed 
@@ -89,7 +89,7 @@ WAP to check whether a given number is divisible by 3 and divisible by 2.
 WAP to check whether a given number is divisible by 7 or divisible by 3.
 
 
-Assignment10 | More on Decision Control Statements
+Assignment10 | More on Decision Control Statements(Remaining)
 
 WAP to check whether a given number is positive,negative or zero.
 WAP to check whether a given character is an alphabet(uppercase), an alphabet(lowercase), a digit or a special character.
@@ -138,6 +138,7 @@ WAP to count digits in a given number.
 WAP to check whether a given number is prime or not.
 WAP to calculate the LCM of two numbers.
 WAP to reverse a given number.
+WAP to calculate a given number is palindrome or not.
 
 Assignment15 | Level up with loops
 
@@ -157,6 +158,73 @@ WAP to print all Armstrong number under 1000.
 
 
 Assignment17 | Star Patterns Problems
+
+Assignment18 | Star Patterns Problems
+
+Assignment19 | Switch case Control
+
+Assignment20 | Switch case Control
+
+
+Assignment21 | Functions
+
+Assignment22 | Functions
+
+Assignment23 | More on Functions
+
+Assignment24 | More on Functions
+
+Assignment25 | Recursion
+
+Assignment26 |  Recursion
+
+
+Assignment27 | More on Recursion
+
+Assignment28 | More on Recursion
+
+
+Assignment29 | 
+
+Assignment30 |
+
+Assignment31 |
+
+Assignment32 |
+
+Assignment33 |
+
+Assignment34 |
+
+Assignment35 |
+
+Assignment36 |
+
+Assignment37 |
+
+Assignment38 |
+
+Assignment39 |
+
+Assignment40 |
+
+Assignment41 |
+
+Assignment42 |
+
+Assignment43 |
+
+Assignment44 |
+
+Assignment45 |
+
+Assignment46 |
+
+
+
+
+
+
 
 
 
