@@ -35,23 +35,25 @@ WAP which takes the month number as an input and display number of days in that 
 // }
 
 // WAP to check whether a given character is an alphabet(uppercase), an alphabet(lowercase), a digit or a special character.
-
 // int main()
 // {
 
-//     int num1;
-//     printf("Please enter a number\n");
-//     scanf("%d", &num1);
-//     if (num1%5==0)
-//     {
-//         printf("Given number %d is divisible by 5\n", num1);
-//         return 0;
-//     }
-//     else
-//     {
-//         printf("Given number %d is not divisible by 5\n", num1);
-//         return 0;
-//     }
+//     char ch;
+//     printf("Enter a character: \n");
+//     scanf("%c", &char);
+// if(char>=65 && char <=90 || char >=97 && char <=122){
+//{if(char>=65 && char <=90){
+//    printf("Given character %c is uppercase alphabet\n",char);
+// return 0;}
+// else{
+//    printf("Given character %c is lowercase alphabet\n",char);
+// return 0;
+//}
+
+// }
+// else
+//    printf("Given character %c is not an alphabet\n",char);
+//    return 0;
 // }
 
 // WAP to which takes the length of the triangle as an input. Display whether the triangle is valid or not.
