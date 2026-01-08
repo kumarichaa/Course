@@ -245,22 +245,20 @@ int main()
 }
 */
 
-
-
 /*
 10. WAP to print the following patterns:
 
-ABCDE
- BCDE
-  CDE
-   DE
-    E
+    *
+   **
+  ***
+ ****
+*****
 
-*/
+
 
 int main()
 {
-   
+
     for (int i = 1; i <= 5; i++)
     {
 
@@ -272,7 +270,47 @@ int main()
                 printf("*");
         }
         printf("\n");
-        
+
+    }
+    return 0;
+}
+
+
+*/
+
+/*
+10. WAP to print the following patterns:
+
+*****
+*   *
+*   *
+*   *
+*****
+
+*/
+
+int main()
+{
+
+    for (int i = 1; i <= 5; i++)
+    {
+
+        for (int j = 1; j <= 5; j++)
+        {
+            if (i >= 2 && i <= 4)
+            {
+                if (j == 1 || j == 5)
+                {
+                    printf("*");
+                }
+                else
+                printf(" ");
+            }else{
+                printf("*");
+            }
+            
+        }
+        printf("\n");
     }
     return 0;
 }
