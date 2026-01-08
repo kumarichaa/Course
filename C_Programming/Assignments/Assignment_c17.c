@@ -279,7 +279,7 @@ int main()
 */
 
 /*
-10. WAP to print the following patterns:
+11. WAP to print the following patterns:
 
 *****
 *   *
