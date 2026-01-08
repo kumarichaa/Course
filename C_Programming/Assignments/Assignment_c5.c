@@ -23,7 +23,7 @@ WAP to input a three digit number and rotate its digits by one position towards 
 // {
 
 //     int num1, sum = 0;
-//     printf("Please enter a three digit number\n");
+//     printf("Enter a three digit number:\n");
 //     scanf("%d", &num1);
 //     if (num1 >= 100 && num1 <= 999)
 //     {
@@ -72,7 +72,7 @@ WAP to input a three digit number and rotate its digits by one position towards 
 // {
 
 //     int number,last_digit;
-//     printf("Enter a number");
+//     printf("Enter a number:\n");
 //     scanf("%d",&number);
 //     last_digit=number%10;
 //     number=number/10*10;
@@ -87,7 +87,7 @@ WAP to input a three digit number and rotate its digits by one position towards 
 // {
 
 //     int number,digit;
-//     printf("Enter a number and a digit to be appended");
+//     printf("Enter a number and a digit to be appended:\n");
 //     scanf("%d%d",&number,&digit);
 //     printf("After append a digit number become %d \n",number*10+digit);
 
@@ -100,7 +100,7 @@ WAP to input a three digit number and rotate its digits by one position towards 
 // {
 
 //     int number,digit,temp,result=0,place=1;
-//     printf("Enter a number and a digit");
+//     printf("Enter a number and a digit:\n");
 //     scanf("%d%d",&number,&digit);
 //     temp=number;
 // while(temp){
@@ -123,37 +123,20 @@ WAP to input a three digit number and rotate its digits by one position towards 
 
 // WAP to input a three digit number and rotate its digits by one position towards right.
 
-int main()
-{
-
-    int num1;
-    printf("Please enter a three digit number\n");
-    scanf("%d", &num1);
-    if (num1 >= 100 && num1 <= 999)
-    {
-        num1 = num1 >> 1;
-        printf("After one position towards right number is %d\n", num1);
-        return 0;
-    }
-    else
-    {
-        printf("Please enter a valid between 100 to 999 number\n");
-        return 0;
-    }
-}
-
-// WAP to input a three digit number and rotate its digits by one position towards left.
-
 // int main()
 // {
 
-//     int num1;
-//     printf("Please enter a three digit number\n");
-//     scanf("%d", &num1);
-//     if (num1 >= 100 && num1 <= 999)
+//     int num;
+//     printf("Enter a three digit number:\n");
+//     scanf("%d", &num);
+//     if (num >= 100 && num <= 999)
 //     {
-//         num1 = num1 << 1;
-//         printf("After one position towards right number is %d\n", num1);
+
+//         int remainder;
+//         remainder=num%10;
+//         num = num /10;
+//         num=remainder*100+num;
+//         printf("After one position towards right number is %d\n", num);
 //         return 0;
 //     }
 //     else
@@ -162,3 +145,27 @@ int main()
 //         return 0;
 //     }
 // }
+
+// WAP to input a three digit number and rotate its digits by one position towards left.
+
+int main()
+{
+
+    int num;
+    printf("Enter a three digit number:\n");
+    scanf("%d", &num);
+    if (num >= 100 && num <= 999)
+    {
+        int remainder;
+        remainder = num % 100;
+        num = num / 100;
+        num = remainder * 10 + num;
+        printf("After one position towards left number is %d\n", num);
+        return 0;
+    }
+    else
+    {
+        printf("Please enter a valid between 100 to 999 number\n");
+        return 0;
+    }
+}

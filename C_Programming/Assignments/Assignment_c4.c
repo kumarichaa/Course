@@ -25,11 +25,8 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 //     printf("Size of integer constant %d\n", sizeof(int));
 //     printf("Size of float constant %d\n", sizeof(float));
 //     printf("Size of double constant %d\n", sizeof(double));
-
-//     printf("Size of character constant %d\n", sizeof('A'));
-
-//     printf("Size of character constant %lu\n", sizeof(' '));
-
+//     printf("Size of character constant ' ' = %zu\n", sizeof(' '));
+//     printf("Size of character constant 'A' = %zu\n", sizeof('A'));
 //     return 0;
 // }
 
@@ -37,8 +34,7 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 
 // int main()
 // {
-
-//     printf("Size of real constant %.5f is %lu\n",34.56789,sizeof(34.56789));
+//     printf("Size of real constant = %zu\n", sizeof(34.56789));
 //     return 0;
 // }
 
@@ -46,15 +42,9 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 
 // int main()
 // {
-
 //     char ch1='A';
-
 //     printf("Changed value of character is %c\n",++ch1);
-//     ch1++;
-//     printf("Changed value of character is %c\n",ch1);
-
 //     return 0;
-
 // }
 
 // WAP to swap values of two int variables.
@@ -63,7 +53,7 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 // {
 
 //     int num1,num2,swap_num;
-//     printf("Enter two numbers");
+//     printf("Enter two numbers:\n");
 //     scanf("%d%d",&num1,&num2);
 //     swap_num=num1;
 //     num1=num2;
@@ -78,7 +68,7 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 // {
 
 //     int num1, num2;
-//     printf("Enter two numbers");
+//     printf("Enter two numbers:\n");
 //     scanf("%d%d", &num1, &num2);
 //     num1 = num1 + num2;
 //     num2 = num1 - num2;
@@ -93,7 +83,7 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 // {
 
 //     int num1, num2;
-//     printf("Enter two numbers");
+//     printf("Enter two numbers:\n");
 //     scanf("%d%d", &num1, &num2);
 //     num1 = num1 ^ num2;
 //     num2 = num1 ^ num2;
@@ -108,7 +98,7 @@ int main()
 {
 
     int num1, num2;
-    printf("Enter two numbers");
+    printf("Enter two numbers:\n");
     scanf("%d%d", &num1, &num2);
     num1 ^= num2;
     num2 ^= num1;
@@ -124,7 +114,7 @@ int main()
 // {
 
 //     int num1, num2;
-//     printf("Enter two numbers");
+//     printf("Enter two numbers:\n");
 //     scanf("%d%d", &num1, &num2);
 //     num1 = (num1 + num2) - (num2 = num1);
 
