@@ -26,18 +26,13 @@ WAP to check whether a given number is an even or an odd number without using bi
 //     {
 //         printf("Given number %d is positive\n", num1);
 //         return 0;
-//     }else if (num1 < 0)
+//     }
+//     else
 //     {
 //         printf("Given number %d is negative\n", num1);
 //         return 0;
 //     }
-//     else
-//     {
-//         printf("Please enter a number greater than zero or less than zero \n");
-//         return 0;
-//     }
 // }
-
 
 // WAP to check whether a given number is divisible of 5  or not.
 
@@ -107,7 +102,7 @@ int main()
     int num1;
     printf("Please enter a number\n");
     scanf("%d", &num1);
-    if (num1%=2)
+    if (num1 %= 2)
     {
         printf("Given number is an odd\n");
         return 0;

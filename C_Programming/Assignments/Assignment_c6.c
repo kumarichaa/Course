@@ -21,11 +21,12 @@ x=3<0&&5>0;
 
 // int main()
 // {
+// #define USD_RATE 84.23
 
 //     float usd_amount, inr_amount;
 //     printf("Please enter the amount in INR from the user\n");
 //     scanf("%f", &inr_amount);
-//     usd_amount = inr_amount / 84.23;
+//     usd_amount = inr_amount / USD_RATE;
 //     printf("Equivalent USD amount is %.2f\n", usd_amount);
 //     return 0;
 // }
@@ -35,13 +36,17 @@ x=3<0&&5>0;
 // int main()
 // {
 
-//     int num1;
-//     printf("Please enter a three digit number\n");
-//     scanf("%d", &num1);
-//     if (num1 >= 100 && num1 <= 999)
+//     int num;
+//     printf("Enter a three digit number:\n");
+//     scanf("%d", &num);
+//     if (num >= 100 && num <= 999)
 //     {
-//         num1 = num1 >> 1;
-//         printf("After one position towards right number is %d\n", num1);
+
+//         int remainder;
+//         remainder=num%10;
+//         num = num /10;
+//         num=remainder*100+num;
+//         printf("After one position towards right number is %d\n", num);
 //         return 0;
 //     }
 //     else
@@ -58,8 +63,8 @@ x=3<0&&5>0;
 // {
 
 //     int x;
-//     x=10>8>4;
-//     printf("Value stored in x is %d\n",x);
+//     x=10>8>4;  
+//     printf("Value stored in x is %d\n",x); // Result is 0
 //     return 0;
 // }
 
@@ -71,17 +76,18 @@ x=3<0&&5>0;
 
 //     int x;
 //     x=!2>-2;
-//     printf("Value stored in x is %d\n",x);
+//     printf("Value stored in x is %d\n",x);  // Result is 1
 //     return 0;
 // }
 
 // what will be the value stored in the variable 'x' after execution of the following code snippet?
 //  x=3<0&&5>0;
+
 int main()
 {
 
     int x;
     x = 3 < 0 && 5 > 0;
-    printf("Value stored in x is %d\n", x);
+    printf("Value stored in x is %d\n", x); // Result is 0
     return 0;
 }

@@ -11,6 +11,6 @@ Assignment21 | Functions
 
 int main()
 {
-   
+
     return 0;
 }
