@@ -20,13 +20,7 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 
 // int main()
 // {
-
-//     printf("Size of character constant %d\n", sizeof(char));
-//     printf("Size of integer constant %d\n", sizeof(int));
-//     printf("Size of float constant %d\n", sizeof(float));
-//     printf("Size of double constant %d\n", sizeof(double));
-//     printf("Size of character constant ' ' = %zu\n", sizeof(' '));
-//     printf("Size of character constant 'A' = %zu\n", sizeof('A'));
+//     printf("Size of character constant %d\n", sizeof('A'));
 //     return 0;
 // }
 
@@ -79,6 +73,21 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 
 // WAP to swap values of two int variables without using third variable and + - operators.
 
+int main()
+{
+
+    int num1, num2;
+    printf("Enter two numbers:\n");
+    scanf("%d%d", &num1, &num2);
+    num2 = num1 * num2;
+    num1 = num2 / num1;
+    num2 = num2 / num1;
+    printf("After swapping num1=%d and num2=%d\n", num1, num2);
+    return 0;
+}
+
+// WAP to swap values of two int variables without using third variable and arithmetic operators
+
 // int main()
 // {
 
@@ -91,22 +100,6 @@ WAP to swap values of two int variables in a single line arithmetic expression.
 //     printf("After swapping num1=%d and num2=%d\n", num1, num2);
 //     return 0;
 // }
-
-// WAP to swap values of two int variables without using third variable and arithmetic operators
-// use compound operators
-int main()
-{
-
-    int num1, num2;
-    printf("Enter two numbers:\n");
-    scanf("%d%d", &num1, &num2);
-    num1 ^= num2;
-    num2 ^= num1;
-    num1 ^= num2;
-
-    printf("After swapping num1=%d and num2=%d\n", num1, num2);
-    return 0;
-}
 
 // WAP to swap values of two int variables in a single line arithmetic expression.
 

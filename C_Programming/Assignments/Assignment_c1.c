@@ -6,23 +6,62 @@ Write a program to print "MySirG" on the screen Remember MySirG is double quotes
 Write a program to print \n on the screen
 Write a program to print \r on the screen
 Write a program to print "Teacher's Day" on the screen. (Remember to print single and double quotes)
+Write a program to calculate sum of integers. Numbers are taken from user through keyboard.
+Write a program to calculate square of a given number. Number is entered by the user.
+Write a program to calculate area of a rectangle. Input appropriate data from the user.
+write a program to find area of a the circle . Take radius of a circle from user as input.
+
 
  */
 
 #include <stdio.h>
 
+// Write a program to print Hello Students on the screen.
+
 // int main()
 // {
-
 //     printf("Hello,Students\n");
-//     printf("Hello\nStudents\n");
-//     printf("\"MySirG\"\n");
-//     printf("\\n\n");
-//     printf("\\r\n");
-//     printf("\"Teacher\'s Day\"\n");
-//     printf("Hello,Stud\rents,welcome to C\rpr");
-
 //     return 0;
+// }
+
+// Write a program to print Hello on the first line and Students on the second line
+
+// int main()
+// {
+//     printf("Hello\nStudents\n");
+//     return 0;
+// }
+
+// Write a program to print "MySirG" on the screen Remember MySirG is double quotes.
+
+// int main()
+// {
+//     printf("\"MySirG\"\n");
+//     return 0;
+// }
+
+// Write a program to print \n on the screen
+
+// int main()
+// {
+//     printf("\\n\n");
+//     return 0;
+// }
+
+// Write a program to print \r on the screen
+
+// int main()
+// {
+//     printf("\\r\n");
+//     return 0;
+// }
+
+// Write a program to print "Teacher's Day" on the screen. (Remember to print single and double quotes)
+
+// int main()
+// {
+//     printf("\"Teacher\'s Day\"\n");
+//        return 0;
 // }
 
 // Write a program to calculate sum of two integers. Numbers are taken from the user through the keyboard.

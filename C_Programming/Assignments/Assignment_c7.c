@@ -42,14 +42,16 @@ WAP to check whether a given number is an even or an odd number without using bi
 //     int num1;
 //     printf("Please enter a number\n");
 //     scanf("%d", &num1);
-//     if (num1%5==0)
+//     if (num1%5)
 //     {
+// printf("Given number %d is not divisible by 5\n", num1);
+//         return 0;
 //         printf("Given number %d is divisible by 5\n", num1);
 //         return 0;
 //     }
 //     else
 //     {
-//         printf("Given number %d is not divisible by 5\n", num1);
+//         printf("Given number %d is divisible by 5\n", num1);
 //         return 0;
 //     }
 // }
