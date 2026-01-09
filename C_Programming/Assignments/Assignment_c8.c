@@ -17,20 +17,14 @@ WAP to print greatest among three given numbers. Print number once if the greate
 
 // int main()
 // {
-
 //     int num1;
 //     printf("Enter a number: \n");
 //     scanf("%d", &num1);
 //     if (num1 >= 100 && num1 <= 999)
-//     {
 //         printf("Given number %d is a three digit number\n", num1);
-//         return 0;
-//     }
 //     else
-//     {
 //         printf("Given number %d is not a three digit number\n", num1);
 //         return 0;
-//     }
 // }
 
 // WAP to print greater between two numbers. Print one number if both are same.
@@ -38,20 +32,14 @@ WAP to print greatest among three given numbers. Print number once if the greate
 
 // int main()
 // {
-
 //     int num1,num2;
 //     printf("Enter two numbers: \n");
 //     scanf("%d%d", &num1,&num2);
 //     if (num1>=num2)
-//     {
 //         printf("Number is %d \n", num1);
-//         return 0;
-//     }
 //     else
-//     {
 //         printf("Number is %d \n", num2);
-//         return 0;
-//     }
+// return 0;
 // }
 
 // Write a program to check whether roots of a given quadratic equation are real & distinct, real & equal or imaginary roots.

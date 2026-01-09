@@ -3,11 +3,12 @@
 Assignment18 | More on Star Patterns Problems
 
 1. WAP to print the following patterns:
-*
-**
-***
-****
-*****
+
+**********
+****  ****
+***    ***
+**      **
+*        *
 
 
 */
@@ -16,13 +17,6 @@ Assignment18 | More on Star Patterns Problems
 
 int main()
 {
-    for (int i = 0; i <= 4; i++)
-    {
-        for (int j = 0; j <= i; j++)
-        {
-            printf("*");
-        }
-        printf("\n");
-    }
+
     return 0;
 }

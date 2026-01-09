@@ -56,12 +56,14 @@ WAP to input a three digit number and rotate its digits by one position towards 
 
 // int main()
 // {
-
-//     printf("Size of char = %zu bytes \n", sizeof(char));
-//     printf("Size of int = %zu bytes \n", sizeof(int));
-//     printf("Size of float =  %zu bytes \n", sizeof(float));
-//     printf("Size of double = %zu bytes \n", sizeof(double));
-
+// int a;
+// float b;
+// char c;
+// double d;
+//     printf("Size of char = %d bytes \n", sizeof(c));
+//     printf("Size of int = %d bytes \n", sizeof(a));
+//     printf("Size of float =  %d bytes \n", sizeof(b));
+//     printf("Size of double = %d bytes \n", sizeof(d));
 //     return 0;
 
 // }
@@ -70,14 +72,11 @@ WAP to input a three digit number and rotate its digits by one position towards 
 
 // int main()
 // {
-
-//     int number,last_digit;
+//     int number;
 //     printf("Enter a number:\n");
 //     scanf("%d",&number);
-//     last_digit=number%10;
 //     number=number/10*10;
 //     printf("Last digit stored as zero of %d \n",number);
-
 //     return 0;
 // }
 
@@ -85,12 +84,10 @@ WAP to input a three digit number and rotate its digits by one position towards 
 
 // int main()
 // {
-
 //     int number,digit;
 //     printf("Enter a number and a digit to be appended:\n");
 //     scanf("%d%d",&number,&digit);
 //     printf("After append a digit number become %d \n",number*10+digit);
-
 //     return 0;
 // }
 

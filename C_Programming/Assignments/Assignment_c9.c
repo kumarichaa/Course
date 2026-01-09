@@ -1,28 +1,19 @@
 /*
-====================================================
+
 Assignment 9 | Decision Control Statements
-====================================================
 
-1. WAP which takes the cost price and selling price of a product from the user.
-   Calculate and print the profit or loss percentage.
 
-2. WAP to take marks of 5 subjects from the user.
-   Assume marks are out of 100 and passing marks is 33.
-   Display whether the candidate passed or failed.
+WAP which takes the cost price and selling price of a product from the user. Calculate and print the profit or loss percentage.
+WAP to take marks of 5 subjects from the user. Assume marks are out of 100 and passing marks is 33. Display whether the candidate passed or failed.
+WAP to check whether a given alphabet is uppercase or lowercase.
+WAP to check whether a given number is divisible by 3 AND divisible by 2.
+WAP to check whether a given number is divisible by 7 OR divisible by 3.
 
-3. WAP to check whether a given alphabet is uppercase or lowercase.
-
-4. WAP to check whether a given number is divisible by 3 AND divisible by 2.
-
-5. WAP to check whether a given number is divisible by 7 OR divisible by 3.
-====================================================
 */
 
 #include <stdio.h>
 
-/* -------------------------------------------------
-1. Profit & Loss Percentage
-------------------------------------------------- */
+// WAP which takes the cost price and selling price of a product from the user. Calculate and print the profit or loss percentage.
 
 // int main()
 // {
@@ -48,9 +39,7 @@ Assignment 9 | Decision Control Statements
 //     return 0;
 // }
 
-/* -------------------------------------------------
-2. Pass or Fail (5 Subjects)
-------------------------------------------------- */
+//  WAP to take marks of 5 subjects from the user. Assume marks are out of 100 and passing marks is 33.
 
 // int main()
 // {
@@ -69,9 +58,7 @@ Assignment 9 | Decision Control Statements
 //     return 0;
 // }
 
-/* -------------------------------------------------
-3. Uppercase or Lowercase Alphabet
-------------------------------------------------- */
+// WAP to check whether a given alphabet is uppercase or lowercase.
 
 // int main()
 // {
@@ -90,9 +77,7 @@ Assignment 9 | Decision Control Statements
 //     return 0;
 // }
 
-/* -------------------------------------------------
-4. Divisible by 3 AND 2
-------------------------------------------------- */
+// WAP to check whether a given number is divisible by 3 AND divisible by 2.
 
 // int main()
 // {
@@ -109,9 +94,7 @@ Assignment 9 | Decision Control Statements
 //     return 0;
 // }
 
-/* -------------------------------------------------
-5. Divisible by 7 OR 3
-------------------------------------------------- */
+// WAP to check whether a given number is divisible by 7 OR divisible by 3.
 
 int main()
 {

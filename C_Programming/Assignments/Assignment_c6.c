@@ -19,6 +19,16 @@ x=3<0&&5>0;
 
 // Assume price of 1 USD is INR 84.23. WAP to take the amount in INR from the user and convert it into USD.
 
+int main()
+{
+    float INR,USD;
+    printf("Enter the amount in INR from the user\n");
+    scanf("%f", &INR);
+    USD = 1/84.32*INR;
+    printf("₹%.2f = $%.2f\n",INR, USD);
+    return 0;
+}
+
 // int main()
 // {
 // #define USD_RATE 84.23
@@ -63,7 +73,7 @@ x=3<0&&5>0;
 // {
 
 //     int x;
-//     x=10>8>4;  
+//     x=10>8>4;
 //     printf("Value stored in x is %d\n",x); // Result is 0
 //     return 0;
 // }
@@ -83,11 +93,11 @@ x=3<0&&5>0;
 // what will be the value stored in the variable 'x' after execution of the following code snippet?
 //  x=3<0&&5>0;
 
-int main()
-{
+// int main()
+// {
 
-    int x;
-    x = 3 < 0 && 5 > 0;
-    printf("Value stored in x is %d\n", x); // Result is 0
-    return 0;
-}
+//     int x;
+//     x = 3 < 0 && 5 > 0;
+//     printf("Value stored in x is %d\n", x); // Result is 0
+//     return 0;
+// }
