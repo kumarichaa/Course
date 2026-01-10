@@ -14,32 +14,30 @@ WAP to check whether two given numbers are co-prime or not.
 
 // WAP to print all prime numbers under 100.
 
-// int main()
-// {
+int main()
+{
 
-//     int count = 0;
-//     printf("All Prime numbers under 100: \n");
+    
+    printf("All Prime numbers under 100: \n");
 
-//     for (int i = 2; i <= 100; i++)
-//     {
-//         for (int j = 2; j <= i; j++)
-//         {
-//             if (i % j == 0)
-//             {
-//                 count++;
-//                 if (i == j && count == 1)
-//                 {
-//                     printf("%d ", i);
-//                     break;
-//                 }
-//             }
-//         }
-//         count=0;
-//
-//     }
-//     printf("\n");
-//     return 0;
-// }
+    for (int i = 2; i <= 100; i++)
+    {
+        for (int j = 2; j <= i; j++)
+        {
+            if (j % i == 0)
+            {
+                if (i == j)
+                {
+                    printf("%d ", i);
+                    break;
+                }
+            }
+        }
+
+    }
+    printf("\n");
+    return 0;
+}
 
 // WAP to print all prime numbers between given numbers.
 
@@ -55,15 +53,13 @@ WAP to check whether two given numbers are co-prime or not.
 //         {
 //             if (i % j == 0)
 //             {
-//                 count++;
-//                 if (i == j && count == 1)
+//                 if (i == j)
 //                 {
 //                     printf("%d ", i);
 //                     break;
 //                 }
 //             }
 //         }
-//         count = 0;
 //
 //     }
 //     printf("\n");
@@ -74,7 +70,7 @@ WAP to check whether two given numbers are co-prime or not.
 
 // int main()
 // {
-//     int num, count = 0;
+//     int num;
 //     printf("Enter a number: \n");
 //     scanf("%d", &num);
 //     for (int i = num + 1; ; i++)
@@ -84,54 +80,53 @@ WAP to check whether two given numbers are co-prime or not.
 //         {
 //             if (i % j == 0)
 //             {
-//                 count++;
-//                 if (i == j && count == 1)
+//                 if (i == j)
 //                 {
 //                     printf("Next Prime number is %d\n", i);
-//                     return 0;
+// break;
 //                 }
 //             }
 //         }
-//         count = 0;
 //     }
+// return 0;
 // }
 
 // WAP to calculate HCF of given two numbers.
 
-int main()
-{
+// int main()
+// {
 
-    int num1, num2, reminder, hcf;
-    printf("Enter two numbers\n");
-    scanf("%d%d", &num1, &num2);
-    while (1)
-    {
-        if (num1 >= num2)
-        {
-            reminder = num1 % num2;
-            if (reminder == 0)
-            {
-                hcf = num2;
-                printf("HCF is %d\n", hcf);
-                return 0;
-            }
-            num1 = num2;
-            num2 = reminder;
-        }
-        else
-        {
-            reminder = num2 % num1;
-            if (reminder == 0)
-            {
-                hcf = num1;
-                printf("HCF is %d\n", hcf);
-                return 0;
-            }
-            num2 = num1;
-            num1 = reminder;
-        }
-    }
-}
+//     int num1, num2, reminder, hcf;
+//     printf("Enter two numbers\n");
+//     scanf("%d%d", &num1, &num2);
+//     while (1)
+//     {
+//         if (num1 >= num2)
+//         {
+//             reminder = num1 % num2;
+//             if (reminder == 0)
+//             {
+//                 hcf = num2;
+//                 printf("HCF is %d\n", hcf);
+//                 return 0;
+//             }
+//             num1 = num2;
+//             num2 = reminder;
+//         }
+//         else
+//         {
+//             reminder = num2 % num1;
+//             if (reminder == 0)
+//             {
+//                 hcf = num1;
+//                 printf("HCF is %d\n", hcf);
+//                 return 0;
+//             }
+//             num2 = num1;
+//             num1 = reminder;
+//         }
+//     }
+// }
 
 // WAP to check whether two given numbers are co-prime or not.
 
