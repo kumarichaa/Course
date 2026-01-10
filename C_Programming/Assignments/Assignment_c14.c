@@ -56,21 +56,16 @@ WAP to reverse a given number.
 int main()
 {
 
-    int n, count = 0;
-    printf("Enter the number of elements\n");
+    int n, i;
+    printf("Enter a number:\n");
     scanf("%d", &n);
 
-    for (int i = 2; i <= n; i++)
+    for (i = 2; i <= n; i++)
     {
         if (n % i == 0)
-        {
-            count++;
-            if (i == n)
-                break;
-            continue;
-        }
+            break;
     }
-    if (count == 1)
+    if (i == n)
     {
         printf("The number is prime\n");
         return 0;
