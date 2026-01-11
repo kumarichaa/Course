@@ -64,7 +64,7 @@ int main()
  */
 
 // Convert the following if-else-if construct into switch case
-
+/* 
 #include <stdio.h>
 
 int main()
@@ -90,4 +90,47 @@ int main()
         break;
     }
     return 0;
+} */
+
+
+// Write the program which takes the day number of a week and displays unique greeting message for the day
+
+ #include <stdio.h>
+
+int main()
+{
+
+    int day_num;
+    printf("Enter day number of a week:\n");
+    scanf("%d", &day_num);
+
+    switch (day_num)
+    {
+    case 1:
+        printf("Happy Sunday! Enjoy Weekend\n");
+        break;
+    case 2:
+        printf("Welcome to the Monday. Start your work\n");
+        break;
+    case 3:
+        printf("Repeated Working Tuesday\n");
+        break;
+    case 4:
+        printf("It's meeting, Today is Wednesday\n");
+        break;
+    case 5:
+        printf("Ohh! It's relaxing from work for an hour, It's Thursday\n");
+        break;
+    case 6:
+        printf("Close to weekend, It's last working. It's Friday\n");
+        break;
+    case 7:
+        printf("Happy Saturday\n");
+        break;
+    default:
+        printf("Enter Weekday number between 1 to 7\n");
+        break;
+    }
+    return 0;
 }
+ 
